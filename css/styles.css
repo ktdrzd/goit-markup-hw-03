@@ -24,7 +24,6 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 body {
@@ -42,7 +41,7 @@ body {
 }
 
 .header-container {
-    border-bottom: 1px solid #e7e9fc;
+    border-bottom:  solid #e7e9fc;
     display: flex;
 }
 
@@ -304,6 +303,20 @@ body {
     letter-spacing: 0.32px;
 }
 
+/*Portfolio*/
+
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.port-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
 .portfolio-btn {
     background-color: #F4F4FD;
     color: #4D5AE5;
@@ -314,12 +327,34 @@ body {
     line-height: 24px;
     letter-spacing: 0.64px;
     cursor: pointer;
+    padding: 12px 24px 12px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
     background-color: #404BBF;
     color: #ffffff;
+    border: 1px solid transparent;
+}
+
+.port-list-img {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.port-list-item {
+    width: 1px solid #e7e9fc;
+}
+
+.port-item {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .port-h {
