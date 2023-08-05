@@ -40,8 +40,13 @@ body {
     list-style: none;
 }
 
+/*Header*/
+
+.header {
+    border-bottom: solid #e7e9fc;
+}
+
 .header-container {
-    border-bottom:  solid #e7e9fc;
     display: flex;
 }
 
@@ -272,6 +277,10 @@ body {
     padding: 32px 0 32px;
 }
 
+.name-team {
+    padding: 32px 0 32px;
+}
+
 /*Footer*/
 
 .footer {
@@ -364,6 +373,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .port-h-text {
