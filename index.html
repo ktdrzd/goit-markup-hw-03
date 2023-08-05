@@ -4,6 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +16,7 @@
 </head>
 <body>
     <header class="header">
+    <div class="container">
       <nav class="header-navigation">
         <a class="header-logo link" rel="stylesheet"
         href="./index.html">Web<span class="logo-name">Studio</span></a>
@@ -28,13 +32,15 @@
                 <li class="header-soc-item"><a class="header-soc-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+    </div>
     </header>
     <main>
         <section class="hero">
+        <div class="container">    
             <h1 class="hero-title">Effective Solutions for Your Business</h1> 
             <button type="button" class="hero-btn">Order Service</button>
         </section>
-        <section class="solutions">
+        <div class="solutions">
             <h2 hidden>Effective Solutions for Your Business</h2>
             <ul class="list">
                 <li class="solutions-item">
@@ -61,8 +67,10 @@
                     </p>
                 </li>
             </ul>
+            </div>
             </section>
             <section class="tasks">
+            <div class="container">
                 <h2 class="tasks-title">What are we doing</h2>
                 <ul class="list">
                     <li class="tasks-item">
@@ -90,8 +98,10 @@
                         />
                     </li>
                 </ul>
+                </div>
                 </section>
                 <section class="team">
+                <div class="container">
             <h2 class="team-title">Our Team</h2>
             <ul class="list">
                 <li class="team-item">
@@ -131,12 +141,15 @@
                     <p class="team-text">UI Designer</p>
                 </li>
             </ul>
+            </div>
             </section>
     </main>
     <footer class="footer">
+    <div class="container">
         <a class="header-logo link" rel="stylesheet" 
         href="./index.html">Web<span class="footer-logo-name">Studio</span></a>
         <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    </div>    
     </footer>
 </body>
 </html>
