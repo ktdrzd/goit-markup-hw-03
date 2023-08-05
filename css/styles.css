@@ -24,6 +24,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 body {
@@ -106,8 +107,16 @@ body {
     letter-spacing: 0.32px;
 }
 
+.header-soc-link:hover,
+.header-soc-link:focus {
+    color: #404BBF;
+}
+
+/*First Section*/
+
 .hero {
     background: var(--navyblue, #2E2F42);
+    padding: 188px 0 188px;
 }
 
 .hero-title {
@@ -118,6 +127,7 @@ body {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
+    max-width: 496px;
 }
 
 .hero-btn {
@@ -129,16 +139,45 @@ body {
     color: #ffffff;
     cursor: pointer;
     background-color: var(--iris, #4D5AE5);
-}
-
-.header-soc-link:hover,
-.header-soc-link:focus {
-    color:#404BBF;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #404BBF;
+}
+
+/*Second Section*/
+
+.solutions {
+    padding: 120px 0 120px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.solutions-list {
+    display: flex;
+    gap: 24px;
+}
+
+.solutions-item {
+    display: block;
+    width: calc((100%-72px)/4);
 }
 
 .solutions-subtitle {
@@ -149,6 +188,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 8px;
 }
 
 .solutions-item-text {
@@ -157,12 +197,29 @@ body {
     letter-spacing: 0.02em;
 }
 
+/*Third Section*/
+
+.tasks {
+    padding-bottom: 120px;
+}
+
+.tasks-list {
+    display: flex;
+    gap: 24px;
+}
+
+.tasks-item {
+    display: block;
+    width: calc((100%-48px)/3);
+}
+
 .tasks-title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .team {
